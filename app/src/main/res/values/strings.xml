@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Masjid Mode</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- live banner id
+    <string name="banner_ad_unit_id">ca-app-pub-1787517647495803</string>
+    -->
+    <string name="app_id_for_admob">ca-app-pub-1787517647495803~5310682776</string>
+    <string name="fajr">Fajr</string>
+    <string name="zohar">Zohar</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="ishaa">Ishaa</string>
+    <string name="jumma">Jumma</string>
+
+    <string name="prayer_timing">Prayers Timing</string>
+    <string name="done">Done</string>
+    <string name="exit">Exit</string>
+    <string name="add_more">+</string>
+    <string name="add_more_item">Add More</string>
+    <string name="add_new">New Silent Mode Slot</string>
+    <string name="custom">Custom</string>
+    <string name="set_time">Set Time</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+    <string name="is_required">Required</string>
+    <string name="dialog_msg_delete">Are you sure want to delete this item?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="notification_title">Silent Mode: On</string>
+</resources>

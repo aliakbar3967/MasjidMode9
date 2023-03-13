@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sp_bg"
+        android:paddingLeft="@dimen/small_m"
+        android:paddingStart="@dimen/small_m"
+        android:paddingEnd="@dimen/small_m"
+        android:paddingRight="@dimen/small_m"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="@dimen/small_m"
+        android:layout_marginBottom="@dimen/small_m" >
+
+        <TextView
+            android:id="@+id/namaz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/normal_t"
+            android:layout_marginLeft="@dimen/small_m"
+            android:layout_marginStart="@dimen/small_m"
+            android:textColor="@color/text_color"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="Namaz"/>
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/small_m"
+            android:paddingEnd="@dimen/small_m"
+            android:paddingLeft="@dimen/small_m"
+            android:paddingStart="@dimen/small_m"
+            android:paddingTop="@dimen/default_m"
+            android:paddingBottom="@dimen/default_m"
+            android:layout_toStartOf="@+id/end_time"
+            android:layout_toLeftOf="@+id/end_time"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textSize="@dimen/normal_t"
+            android:textColor="@color/text_color"
+            android:text="11:40 AM"/>
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/small_m"
+            android:paddingEnd="@dimen/small_m"
+            android:paddingLeft="@dimen/small_m"
+            android:paddingStart="@dimen/small_m"
+            android:paddingTop="@dimen/default_m"
+            android:paddingBottom="@dimen/default_m"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/text_color"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textSize="@dimen/normal_t"
+            android:layout_centerVertical="true"
+            android:text="12:10 PM"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

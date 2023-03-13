@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:paddingTop="@dimen/default_m"
+    android:orientation="vertical"
+    tools:context="com.app.masjidmode.activity.MainActivity">
+
+    <!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <LinearLayout
+        android:id="@+id/under_21_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_m"
+        android:paddingLeft="@dimen/default_m"
+        android:paddingRight="@dimen/default_m"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/prayer_timing"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/biggest_t"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/add_more"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/sl_b"
+            style="@color/green"
+            android:textStyle="bold"
+            android:textSize="@dimen/big_t"
+            android:text="@string/add_more"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_m"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:paddingBottom="@dimen/list_bottom_padding"
+        android:clipToPadding="false"
+        android:paddingLeft="@dimen/default_m"
+        android:paddingRight="@dimen/default_m"
+        android:layout_below="@+id/under_21_layout"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+    <!--<com.google.android.gms.ads.AdView-->
+    <!--android:id="@+id/adView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--ads:adSize="BANNER"-->
+    <!--ads:adUnitId="@string/banner_ad_unit_id">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+    <!--</ScrollView>-->
+
+</RelativeLayout>

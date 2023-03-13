@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp_bg_no_stroke"
+    android:paddingLeft="@dimen/default_m"
+    android:paddingRight="@dimen/default_m"
+    android:paddingTop="@dimen/default_m"
+    android:paddingBottom="@dimen/default_m">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/biggest_t"
+        android:textColor="@color/text_color"
+        android:text="@string/add_new"/>
+
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/big_t"
+        android:layout_marginTop="@dimen/small_m"
+        android:textColorHint="@color/text_color_hint"
+        android:maxLines="1"
+        android:textColor="@color/text_color"
+        android:hint="@string/custom"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/new_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_m"
+        android:maxLines="1"
+        android:padding="@dimen/small_m"
+        android:text="@string/start_time"
+        android:textSize="@dimen/big_t"
+        android:textColor="@color/text_color"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/new_end_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_m"
+        android:maxLines="1"
+        android:gravity="center"
+        android:textSize="@dimen/big_t"
+        android:textColor="@color/text_color"
+        android:text="@string/end_time"/>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/small_m"
+        android:layout_gravity="center"
+        android:background="@drawable/sl_b"
+        style="@color/green"
+        android:text="@string/done"
+        />
+
+</LinearLayout>
